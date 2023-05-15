@@ -1,0 +1,6 @@
+lv_math.c:51:31:_lv_trigo_sin	7
+lv_math.c:86:10:_lv_bezier3	1
+lv_math.c:112:28:_lv_sqrt	3
+lv_math.c:135:10:_lv_atan2	17
+lv_math.c:219:9:_lv_pow	3
+lv_math.c:241:9:_lv_map	3

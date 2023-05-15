@@ -1,0 +1,244 @@
+2023-05-09 00:00:10,712 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 735400792 Bytes (957349888)
+2023-05-09 00:00:11,891 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 779250808 Bytes (957349888)
+2023-05-09 00:00:12,556 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 811230328 Bytes (957349888)
+2023-05-09 00:00:13,271 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2023-05-09 00:00:13,272 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-09 00:00:13,272 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: STMicroelectronics.X-CUBE-TOUCHGFX.4.21.3
+2023-05-09 00:00:13,272 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-05-09 00:00:13,272 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-05-09 00:00:13,272 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-09 00:00:13,272 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-09 00:00:13,272 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-09 00:00:13,272 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: CRC
+2023-05-09 00:00:13,276 [WARN] IP:2113 - tgfx_nema_cl_size not found: check if there is a RefParameter without a condition.
+2023-05-09 00:00:13,276 [WARN] IP:2113 - tgfx_nema_location not found: check if there is a RefParameter without a condition.
+2023-05-09 00:00:13,285 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-05-09 00:00:13,312 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-05-09 00:00:13,312 [INFO] Argument:321 - 	 sub Args: 
+2023-05-09 00:00:13,313 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream3
+2023-05-09 00:00:13,313 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream3
+2023-05-09 00:00:13,313 [INFO] Argument:319 - Argument : Initvalue: null
+2023-05-09 00:00:13,313 [INFO] Argument:321 - 	 sub Args: 
+2023-05-09 00:00:13,313 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-09 00:00:13,314 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_3
+2023-05-09 00:00:13,314 [INFO] Argument:319 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2023-05-09 00:00:13,314 [INFO] Argument:329 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2023-05-09 00:00:13,314 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-09 00:00:13,314 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-05-09 00:00:13,314 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-09 00:00:13,314 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-05-09 00:00:13,314 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-05-09 00:00:13,314 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-05-09 00:00:13,314 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-05-09 00:00:13,314 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-05-09 00:00:13,314 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-05-09 00:00:13,314 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-05-09 00:00:13,315 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-09 00:00:13,315 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-05-09 00:00:13,315 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-05-09 00:00:13,315 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-05-09 00:00:13,315 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-05-09 00:00:13,315 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-05-09 00:00:13,315 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-05-09 00:00:13,315 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-05-09 00:00:13,315 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-05-09 00:00:13,315 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-05-09 00:00:13,315 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-05-09 00:00:13,315 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-05-09 00:00:13,315 [INFO] Argument:319 - Argument : Statevalue: null
+2023-05-09 00:00:13,315 [INFO] Argument:329 - Argument : Statevalue: null
+2023-05-09 00:00:13,315 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-05-09 00:00:13,316 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-05-09 00:00:13,319 [WARN] IP:2113 - tgfx_nema_cl_size not found: check if there is a RefParameter without a condition.
+2023-05-09 00:00:13,320 [WARN] IP:2113 - tgfx_nema_location not found: check if there is a RefParameter without a condition.
+2023-05-09 00:00:13,703 [INFO] IP:3366 - RTE template : rtos/oswrappers_custom_tmp.ftl
+2023-05-09 00:00:13,720 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\license.tmp_save
+2023-05-09 00:00:14,065 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\license.tmp
+2023-05-09 00:00:14,136 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\gpio.tmp_save
+2023-05-09 00:00:14,642 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\gpio.tmp
+2023-05-09 00:00:15,094 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-09 00:00:15,095 [INFO] IP:3366 - RTE template : rtos/oswrappers_custom_tmp.ftl
+2023-05-09 00:00:15,108 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\SCB_CleanInvalidateDCache.tmp_save
+2023-05-09 00:00:15,906 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\SCB_CleanInvalidateDCache.tmp
+2023-05-09 00:00:15,940 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\SCB_InvalidateDCache.tmp_save
+2023-05-09 00:00:16,123 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\SCB_InvalidateDCache.tmp
+2023-05-09 00:00:16,129 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\touchgfx_license.tmp_save
+2023-05-09 00:00:16,685 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\touchgfx_license.tmp
+2023-05-09 00:00:16,693 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\touchgfx_gen_license.tmp_save
+2023-05-09 00:00:17,006 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\touchgfx_gen_license.tmp
+2023-05-09 00:00:17,019 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\oswrappers_noos.tmp_save
+2023-05-09 00:00:17,399 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\oswrappers_noos.tmp
+2023-05-09 00:00:17,431 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\dma.tmp_save
+2023-05-09 00:00:17,785 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\dma.tmp
+2023-05-09 00:00:17,793 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\dma_GV.tmp_save
+2023-05-09 00:00:18,016 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\dma_GV.tmp
+2023-05-09 00:00:18,029 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-05-09 00:00:18,031 [INFO] IP:3366 - RTE template : rtos/oswrappers_custom_tmp.ftl
+2023-05-09 00:00:18,144 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\SCB_CleanInvalidateDCache.tmp_save
+2023-05-09 00:00:18,499 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\SCB_CleanInvalidateDCache.tmp
+2023-05-09 00:00:18,514 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\SCB_InvalidateDCache.tmp_save
+2023-05-09 00:00:18,893 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\SCB_InvalidateDCache.tmp
+2023-05-09 00:00:18,959 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\touchgfx_license.tmp_save
+2023-05-09 00:00:19,195 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\touchgfx_license.tmp
+2023-05-09 00:00:19,225 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\touchgfx_gen_license.tmp_save
+2023-05-09 00:00:19,728 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\touchgfx_gen_license.tmp
+2023-05-09 00:00:19,740 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\oswrappers_noos.tmp_save
+2023-05-09 00:00:20,146 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\oswrappers_noos.tmp
+2023-05-09 00:00:20,234 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\App\app_touchgfx.h_save
+2023-05-09 00:00:20,636 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\App\app_touchgfx.h
+2023-05-09 00:00:20,651 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\ApplicationTemplate.touchgfx.part_save
+2023-05-09 00:00:21,262 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\ApplicationTemplate.touchgfx.part
+2023-05-09 00:00:21,327 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\TouchGFXConfiguration.cpp_save
+2023-05-09 00:00:22,021 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\TouchGFXConfiguration.cpp
+2023-05-09 00:00:22,049 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\TouchGFXGeneratedHAL.hpp_save
+2023-05-09 00:00:22,582 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\TouchGFXGeneratedHAL.hpp
+2023-05-09 00:00:22,625 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\TouchGFXGeneratedHAL.cpp_save
+2023-05-09 00:00:23,163 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\TouchGFXGeneratedHAL.cpp
+2023-05-09 00:00:23,191 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\TouchGFXHAL.hpp_save
+2023-05-09 00:00:23,632 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\TouchGFXHAL.hpp
+2023-05-09 00:00:23,665 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\TouchGFXHAL.cpp_save
+2023-05-09 00:00:24,151 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\TouchGFXHAL.cpp
+2023-05-09 00:00:24,188 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\STM32TouchController.hpp_save
+2023-05-09 00:00:24,544 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\STM32TouchController.hpp
+2023-05-09 00:00:24,568 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\STM32TouchController.cpp_save
+2023-05-09 00:00:25,040 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\STM32TouchController.cpp
+2023-05-09 00:00:25,154 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\STM32DMA.hpp_save
+2023-05-09 00:00:25,698 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\STM32DMA.hpp
+2023-05-09 00:00:25,722 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\STM32DMA.cpp_save
+2023-05-09 00:00:26,051 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\STM32DMA.cpp
+2023-05-09 00:00:26,079 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\OSWrappers.cpp_save
+2023-05-09 00:00:26,452 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\generated\OSWrappers.cpp
+2023-05-09 00:00:26,491 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\TouchGFXGPIO.cpp_save
+2023-05-09 00:00:26,929 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\target\TouchGFXGPIO.cpp
+2023-05-09 00:00:27,020 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\App\app_touchgfx.c_save
+2023-05-09 00:00:27,671 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\TouchGFX\App\app_touchgfx.c
+2023-05-09 00:00:27,822 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Src\stm32f4xx_it.c_save
+2023-05-09 00:00:28,723 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Src\stm32f4xx_it.c
+2023-05-09 00:00:29,048 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Inc\stm32f4xx_it.h_save
+2023-05-09 00:00:29,461 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Inc\stm32f4xx_it.h
+2023-05-09 00:00:29,467 [INFO] IP:3366 - RTE template : rtos/oswrappers_custom_tmp.ftl
+2023-05-09 00:00:29,467 [INFO] CodeGenerator:2080 - Add RTE Code Input 
+2023-05-09 00:00:29,597 [INFO] CodeEngine:255 - oldGeneratedFile, MXTmpFilesCore\Inc\oswrappers_custom.tmp_save
+2023-05-09 00:00:30,174 [INFO] CodeEngine:279 - Generated code: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\MXTmpFilesCore\Inc\oswrappers_custom.tmp
+2023-05-09 00:00:30,240 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Src\stm32f4xx_hal_msp.c_save
+2023-05-09 00:00:31,380 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Src\stm32f4xx_hal_msp.c
+2023-05-09 00:00:31,398 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\system.tmp_save
+2023-05-09 00:00:31,979 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\MXTmpFiles\system.tmp
+2023-05-09 00:00:32,092 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2023-05-09 00:00:32,388 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Src\stm32f4xx_hal_timebase_tim.c
+2023-05-09 00:00:32,438 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-05-09 00:00:33,121 [INFO] CodeEngine:335 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Inc\stm32f4xx_hal_conf.h
+2023-05-09 00:00:33,238 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-05-09 00:00:33,245 [WARN] CodeGenerator:3754 - IP not found : null
+2023-05-09 00:00:33,377 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Inc\main.h_save
+2023-05-09 00:00:33,712 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Inc\main.h
+2023-05-09 00:00:33,739 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Src\main.c_save
+2023-05-09 00:00:34,231 [INFO] CodeEngine:279 - Generated code: C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo10_TouchGfx\Core\Src\main.c
+2023-05-09 00:00:36,792 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 993mS.
+2023-05-09 00:00:36,792 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,793 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,793 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,793 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,793 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,793 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,793 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,793 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,793 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,793 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,794 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,795 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,795 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,795 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,795 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,795 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,795 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,795 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,795 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,795 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,795 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,796 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,797 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,797 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,797 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,797 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,797 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,797 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,797 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,797 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,797 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,797 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,798 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,799 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,800 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,800 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,800 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,800 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,800 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,800 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,800 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,800 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,800 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,800 [ERROR] Middleware:2969 - Invalid RefComponent liste
+2023-05-09 00:00:36,826 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-09 00:00:37,909 [INFO] ConfigFileManager:1483 - The Die is : DIE433
+2023-05-09 00:00:37,926 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-05-09 00:00:37,952 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-05-09 00:00:37,969 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-05-09 00:00:38,004 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-05-09 00:00:38,035 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-05-09 00:00:38,058 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-05-09 00:00:42,544 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 5719mS.
+2023-05-09 00:00:42,545 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-05-09 00:00:42,553 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-09 00:07:44,591 [WARN] IP:2113 - tgfx_nema_cl_size not found: check if there is a RefParameter without a condition.
+2023-05-09 00:07:44,591 [WARN] IP:2113 - tgfx_nema_location not found: check if there is a RefParameter without a condition.

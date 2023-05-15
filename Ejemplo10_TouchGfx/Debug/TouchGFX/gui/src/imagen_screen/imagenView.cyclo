@@ -1,0 +1,9 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	1
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+imagenView.hpp:11:13:imagenView::~imagenView()	1
+imagenView.hpp:11:13:virtual imagenView::~imagenView()	1
+imagenView.cpp:3:1:imagenView::imagenView()	1
+imagenView.cpp:8:6:virtual void imagenView::setupScreen()	1
+imagenView.cpp:13:6:virtual void imagenView::tearDownScreen()	1

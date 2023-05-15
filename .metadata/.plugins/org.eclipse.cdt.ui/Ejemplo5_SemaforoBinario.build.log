@@ -1,0 +1,10 @@
+22:28:53 **** Incremental Build of configuration Debug for project Ejemplo5_SemaforoBinario ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo5_SemaforoBinario.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28664	    128	  19056	  47848	   bae8	Ejemplo5_SemaforoBinario.elf
+Finished building: default.size.stdout
+ 
+
+22:28:55 Build Finished. 0 errors, 0 warnings. (took 1s.770ms)
+

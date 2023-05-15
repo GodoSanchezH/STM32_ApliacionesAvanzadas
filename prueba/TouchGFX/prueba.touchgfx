@@ -1,0 +1,185 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "screen",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_320x240_gradient_dark.png"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1_1",
+            "X": 199,
+            "Y": 80,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 18,
+              "Blue": 73
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 40.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Box",
+            "Name": "box1_1",
+            "X": 49,
+            "Y": -7,
+            "Width": 230,
+            "Height": 65,
+            "Color": {
+              "Red": 204,
+              "Green": 190,
+              "Blue": 190
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 73,
+            "Width": 194,
+            "Height": 50,
+            "TextId": "__SingleUse_ING3",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1",
+            "X": 73,
+            "Y": 204,
+            "Width": 138,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_small_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_small_rounded_active.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconX": 44,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\small_rounded_active.json"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1",
+            "X": 149,
+            "Y": 80,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 220,
+              "Blue": 20
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 40.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1_2",
+            "X": 90,
+            "Y": 80,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 20,
+              "Green": 130,
+              "Blue": 255
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 40.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1_3",
+            "X": 33,
+            "Y": 80,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 122,
+              "Green": 255,
+              "Blue": 20
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 40.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 320,
+      "Height": 240
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "screen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 320,
+        "Height": 240
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F401",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../prueba.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.21.1"
+}

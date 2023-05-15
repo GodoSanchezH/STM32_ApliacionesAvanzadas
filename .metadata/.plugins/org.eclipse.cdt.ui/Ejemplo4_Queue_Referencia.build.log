@@ -1,0 +1,10 @@
+23:01:11 **** Incremental Build of configuration Debug for project Ejemplo4_Queue_Referencia ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo4_Queue_Referencia.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28776	    128	  19096	  48000	   bb80	Ejemplo4_Queue_Referencia.elf
+Finished building: default.size.stdout
+ 
+
+23:01:14 Build Finished. 0 errors, 0 warnings. (took 3s.686ms)
+

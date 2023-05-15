@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.21.3">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_JE95" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Curso STM32 Modulo 2</Translation>
+      </Text>
+      <Text Id="__SingleUse_30AS" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Godo Sanchez</Translation>
+      </Text>
+      <Text Id="__SingleUse_C3U0" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">QhipaTECH</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="verdanaz.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

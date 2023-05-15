@@ -1,0 +1,17 @@
+00:31:53 **** Incremental Build of configuration Debug for project prueba1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/gssan/OneDrive/Documentos/GitHub/STM32_ApliacionesAvanzadas/prueba1/LVGL/lvgl/src/lv_font" -I"C:/Users/gssan/OneDrive/Documentos/GitHub/STM32_ApliacionesAvanzadas/prueba1/LVGL/lv_examples" -I"C:/Users/gssan/OneDrive/Documentos/GitHub/STM32_ApliacionesAvanzadas/prueba1/LVGL/lv_examples/src" -I"C:/Users/gssan/OneDrive/Documentos/GitHub/STM32_ApliacionesAvanzadas/prueba1/LVGL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "prueba1.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\prueba1\STM32F401RETX_FLASH.ld" -Wl,-Map="prueba1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: prueba1.elf
+ 
+arm-none-eabi-size   prueba1.elf 
+arm-none-eabi-objdump -h -S  prueba1.elf  > "prueba1.list"
+   text	   data	    bss	    dec	    hex	filename
+ 302548	    260	  39292	 342100	  53854	prueba1.elf
+Finished building: default.size.stdout
+ 
+Finished building: prueba1.list
+ 
+
+00:32:06 Build Finished. 0 errors, 0 warnings. (took 13s.168ms)
+

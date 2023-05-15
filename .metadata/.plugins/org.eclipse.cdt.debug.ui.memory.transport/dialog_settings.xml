@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="EXPORT_DIALOG">
+		<item key="Start" value="0x20003194"/>
+		<item key="End" value="0x20004594"/>
+		<item key="Initial address" value="0x20003194"/>
+		<item key="File" value="C:\Users\gssan\OneDrive\Documentos\GitHub\STM32_ApliacionesAvanzadas\Ejemplo7_Mutex\SVDat\Template1.SVDat"/>
+		<item key="SELECTED_EXPORTER" value="rawbinary"/>
+	</section>
+</section>

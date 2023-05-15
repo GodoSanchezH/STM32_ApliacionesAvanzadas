@@ -1,0 +1,10 @@
+00:01:51 **** Incremental Build of configuration Debug for project Ejemplo10_TouchGfx ****
+make -j4 all 
+arm-none-eabi-size   Ejemplo10_TouchGfx.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 155824	    648	   9796	 166268	  2897c	Ejemplo10_TouchGfx.elf
+Finished building: default.size.stdout
+ 
+
+00:01:54 Build Finished. 0 errors, 0 warnings. (took 3s.87ms)
+

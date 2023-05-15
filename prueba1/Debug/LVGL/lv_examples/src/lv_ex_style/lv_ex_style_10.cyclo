@@ -1,0 +1,8 @@
+lv_obj_style_dec.h:92:1:lv_style_set_radius	1
+lv_obj_style_dec.h:113:1:lv_style_set_bg_color	1
+lv_obj_style_dec.h:115:1:lv_style_set_bg_opa	1
+lv_obj_style_dec.h:170:1:lv_style_set_transition_time	1
+lv_obj_style_dec.h:171:1:lv_style_set_transition_delay	1
+lv_obj_style_dec.h:172:1:lv_style_set_transition_prop_1	1
+lv_disp.h:158:26:lv_scr_act	1
+lv_ex_style_10.c:6:6:lv_ex_style_10	1

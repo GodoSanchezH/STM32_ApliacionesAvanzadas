@@ -1,0 +1,52 @@
+/*
+ * PID.c
+ *
+ *  Created on: Mar 20, 2023
+ *      Author: gssan
+ */
+
+#include "PID.h"
+
+
+void Controlador_PID(ControladorPID *pid){
+
+	pid->Deriador =0.0;
+	pid->Integrador =0.0;
+	pid->Proporcional =0.0;
+	pid->Error_anterior =0.0;
+	pid->Medida_anterior =0.0;
+	pid->uk =0.0;
+}
+
+
+float ControladoPID_Calculo(ControladorPID *pid,float refencia,float medicion){
+
+	float error = refencia-medicion;
+
+
+	/*Parte Proporcional*/
+	pid->Proporcional  = error * pid->Ki;
+	/*Parte Integral*/
+	pid->Integrador =pid->Ts*pid->Ki*error +pid->Ts*(pid->Ki/pid->Ki)*(medicion-pid->Medida_anterior);
+	/*Parte Derivativa*/
+	pid->Integrador = (pid->Kd/pid->Ts )*(error - pid->Error_anterior);
+
+	/*calculo de la salida*/
+
+	pid->uk = pid->Proporcional+pid->Integrador+pid->Integrador;
+
+	/*Saturador*/
+
+	if (pid->uk > pid->Lmax) {
+		pid->uk = pid->Lmax;
+	}else if (pid->uk < pid->Lmin) {
+		pid->uk = pid->Lmin;
+	}else pid->uk = pid->uk;
+
+	/*guardamos los valores*/
+	pid->Error_anterior = error;
+	pid->Medida_anterior = medicion;
+
+	return pid->uk;
+}
+

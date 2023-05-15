@@ -1,0 +1,14 @@
+2023-04-13 21:26:19,732 [INFO] Activator:176 - 
+
+
+2023-04-13 21:26:19,738 [INFO] Activator:177 - !SESSION log4j initialized
+2023-04-13 21:26:40,719 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.atollic.truestudio.general.runtimelib.1917043576 uses a null category that is invalid in its context. The option was ignored.
+2023-04-13 21:26:40,741 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.atollic.truestudio.toolchain_options.mcu.2092278506 uses a null category that is invalid in its context. The option was ignored.
+2023-04-13 21:26:40,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.atollic.truestudio.toolchain_options.vendor.1238696358 uses a null category that is invalid in its context. The option was ignored.
+2023-04-13 21:26:41,505 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.atollic.truestudio.general.runtimelib.50696504 uses a null category that is invalid in its context. The option was ignored.
+2023-04-13 21:26:41,530 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.atollic.truestudio.toolchain_options.mcu.541591574 uses a null category that is invalid in its context. The option was ignored.
+2023-04-13 21:26:41,544 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.atollic.truestudio.toolchain_options.vendor.1732552448 uses a null category that is invalid in its context. The option was ignored.
+2023-04-13 21:26:49,456 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-04-13 21:27:43,179 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-04-13 21:27:43,183 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-04-13 21:27:43,187 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

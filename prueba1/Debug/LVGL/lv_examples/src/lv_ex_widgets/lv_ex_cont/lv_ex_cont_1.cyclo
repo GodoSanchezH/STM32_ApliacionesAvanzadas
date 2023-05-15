@@ -1,0 +1,4 @@
+lv_disp.h:158:26:lv_scr_act	1
+lv_cont.h:168:20:lv_cont_set_fit	1
+lv_api_map.h:207:20:lv_obj_align_origo	1
+lv_ex_cont_1.c:4:6:lv_ex_cont_1	3

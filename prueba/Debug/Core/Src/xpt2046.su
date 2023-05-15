@@ -1,0 +1,8 @@
+../Core/Src/xpt2046.c:50:13:XPT2046_SetCS	8	static
+../Core/Src/xpt2046.c:55:13:XPT2046_ResetCS	8	static
+../Core/Src/xpt2046.c:60:13:XPT2046_Write_Byte	16	static
+../Core/Src/xpt2046.c:70:17:XPT2046_Read_AD	24	static
+../Core/Src/xpt2046.c:94:16:besttwoavg	24	static
+../Core/Src/xpt2046.c:108:6:XPT2046_Init	4	static
+../Core/Src/xpt2046.c:113:6:XPT2046_Update	40	static
+../Core/Src/xpt2046.c:151:9:XPT2046_IsReasonable	16	static
